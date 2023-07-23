@@ -4,10 +4,10 @@ AA_OD_Analyzer (Amino Acid, Optical Density Analyzer) is a Python program for an
 
 The AA_OD_Analyzer program takes an input CSV file containing optical density and amino acid sequence data. It performs the following tasks:
 
-    - Reads the input CSV file and parses the data into a Pandas DataFrame.
-    - Generates a histogram of optical density values and saves it as 'output_histogram.png'.
-    - Calculates statistics on amino acid sequences, including mean, maximum, and minimum optical density values.
-    - Writes the amino acid sequence statistics to a CSV file named 'output_data_stats.csv'.
+- Reads the input CSV file and parses the data into a Pandas DataFrame.
+- Generates a histogram of optical density values and saves it as 'output_histogram.png'.
+- Calculates statistics on amino acid sequences, including mean, maximum, and minimum optical density values.
+- Writes the amino acid sequence statistics to a CSV file named 'output_data_stats.csv'.
 
 This tool is designed to be flexible, allowing users to enable or disable logging based on their preference.
 
@@ -81,9 +81,10 @@ Example usage:
 
 ## Command Line Arguments
 
-AA_OD_Analyzer supports the following command-line arguments:
+AA_OD_Analyzer supports the following command-line arguments
 
-    `--log` : Enables logging, displaying information messages to the console and writing them to the 'logfile.log' file.
+`--log`     
+: Enables logging, displaying information messages to the console and writing them to the 'logfile.log' file.
 
 Example usage:
 
@@ -117,6 +118,7 @@ AA_OD_Analyzer is licensed under the GNU GENERAL PUBLIC LICENSE. See LICENSE for
 ## Contact 
 
 Babak Mahdavi Aresetani
+
 babak.m.ardestani@gmail.com
 
 
