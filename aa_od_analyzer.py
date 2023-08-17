@@ -47,6 +47,12 @@ else:
     logging.basicConfig(level=logging.CRITICAL)  # Disables logging
 
 def read_input_csv(file_path):
+    """
+    Read input CSV file and parse the data into a Pandas DataFrame.
+
+    :param file_path: Path to the input CSV file.
+    :return: DataFrame containing the parsed data.
+    """
     try:
         logging.info(f"Reading input CSV file: {file_path}")
         # Read the CSV file and parse the data into a Pandas DataFrame
@@ -66,6 +72,11 @@ def read_input_csv(file_path):
     print(df.head())  # Print the first few rows of the DataFrame for debugging
 
 def generate_histogram(df):
+    """
+    Generate a histogram plot of optical densities.
+
+    :param df: DataFrame containing the data.
+    """
     try:
         logging.info("Generating histogram...")
         # Create a histogram plot of optical densities
@@ -80,6 +91,12 @@ def generate_histogram(df):
         logging.error("'optical_density' column not found in the input data.")
 
 def calculate_amino_acid_stats(df):
+    """
+    Calculate statistics for amino acid sequences.
+
+    :param df: DataFrame containing the data.
+    :return: DataFrame with calculated statistics.
+    """
     try:
         logging.info("Calculating amino acid statistics...")
         # Group the data by amino acid sequences and calculate statistics
@@ -94,6 +111,11 @@ def calculate_amino_acid_stats(df):
         return None
 
 def write_output_csv(stats_df):
+    """
+    Write calculated statistics to a CSV file.
+
+    :param stats_df: DataFrame with calculated statistics.
+    """
     if stats_df is not None:
         logging.info("Writing statistics to CSV...")
         # Write the statistics DataFrame to a CSV file with the desired column order and names
@@ -101,6 +123,7 @@ def write_output_csv(stats_df):
         logging.info("Statistics written to 'output_data_stats.csv'")
     else:
         logging.warning("Unable to write output due to missing data.")
+
 
 if __name__ == "__main__":
 
