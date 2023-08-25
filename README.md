@@ -120,7 +120,3 @@ AA_OD_Analyzer is licensed under the GNU GENERAL PUBLIC LICENSE. See LICENSE for
 Babak Mahdavi Aresetani
 
 babak.m.ardestani@gmail.com
-
-
-## Next
-...
