@@ -9,7 +9,7 @@ The AA_OD_Analyzer program takes an input CSV file containing optical density an
 - Calculates statistics on amino acid sequences, including mean, maximum, and minimum optical density values.
 - Writes the amino acid sequence statistics to a CSV file named 'output_data_stats.csv'.
 
-This tool is designed to be flexible, allowing users to enable or disable logging based on their preference.
+This tool is designed to be flexible, allowing users to enable or disable logging based on their preferences.
 
 
 ## Installation
@@ -27,7 +27,7 @@ Change your working directory to AA_OD_Analyzer:
 
 ## Program Requirements
 
-You need python 3 installed 
+You need Python 3 installed 
 
 Moreover, install the required dependencies using pip:
 
@@ -58,7 +58,7 @@ The input data should be provided in a CSV file with the following columns:
 | ...   | ...             | ...                |
 
 
-An example is located in `example_data` directory.
+An example is located in the `example_data` directory.
 
 ## Output Format
 
@@ -66,7 +66,7 @@ Output Files:
 - output_histogram.png: A histogram plot of optical densities.
 - output_data_stats.csv: A CSV file containing statistics for each amino acid sequence.
 
-An example is located in `example_data` directory.
+An example is located in the `example_data` directory.
 
 
 ## Usage
@@ -92,7 +92,7 @@ Example usage:
 
 ## Unit Tests
 
-Unit tests ensure the correctness and reliability of the AA_OD_Analyzer program. To run the unit tests, you need to be in `tests` directory (currently the location of tje input file is hard-coded which needs to changed later, to pass as an argument, for example): 
+Unit tests ensure the correctness and reliability of the AA_OD_Analyzer program. To run the unit tests, you need to be in the `tests` directory (currently the location of the input file is hard-coded which needs to change later, to pass as an argument, for example): 
 
 `cd tests`
 
@@ -115,7 +115,7 @@ When working with sensitive data, make sure to follow best practices for data ha
 AA_OD_Analyzer is licensed under the GNU GENERAL PUBLIC LICENSE. See LICENSE for more information.
 
 
-## Contact 
+## Author 
 
 Babak Mahdavi Aresetani
 
